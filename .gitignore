@@ -1,15 +1,1 @@
-# node specific
-node_modules/
-npm-debug.log
-
-# project specific
-coverage/
-test/web-platform-tests/
-live-viewer/whatwg-url.mjs
-live-viewer/whatwg-url.mjs.map
-lib/VoidFunction.js
-lib/Function.js
-lib/URL.js
-lib/URLSearchParams.js
-lib/utils.js
-_site/
+/target

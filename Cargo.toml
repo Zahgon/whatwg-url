@@ -1,0 +1,20 @@
+[package]
+name = "whatwg-url"
+version = "17.3.0"
+edition = "2021"
+description = "An implementation of the WHATWG URL Standard's URL API and parsing machinery"
+license = "MIT"
+repository = "https://github.com/jsdom/whatwg-url"
+readme = "README.md"
+rust-version = "1.85"
+
+[lib]
+name = "whatwg_url"
+path = "src/lib.rs"
+
+[[bin]]
+name = "whatwg-url"
+path = "src/main.rs"
+
+[dependencies]
+unicode-normalization = "=0.1.24"
